@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'com.github.dcendents.android-maven'
+group = "com.cilys"
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
+
+version = 'job-1.0.0'
+
+
