@@ -10,6 +10,6 @@ dependencies {
 sourceCompatibility = "7"
 targetCompatibility = "7"
 
-version = 'job-1.0.0'
+version = 'job-1.0.1'
 
 

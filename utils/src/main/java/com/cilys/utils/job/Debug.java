@@ -15,5 +15,4 @@ public class Debug {
             System.out.println("[" + sdf.format(System.currentTimeMillis()) + "] [" + level + "] " + (tag == null ? "" : tag) + " " + msg);
         }
     }
-
 }

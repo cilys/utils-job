@@ -36,6 +36,9 @@ public class JobRunnable implements Runnable, Comparable<JobRunnable>{
 
     @Override
     public int compareTo(JobRunnable jobRunnable) {
-        return this.getPriority() < jobRunnable.getPriority() ? -1 : (this.getPriority() == jobRunnable.getPriority() ? 0 : 1);
+        //倒序，越大越先执行
+//        return this.getPriority() < jobRunnable.getPriority() ? -1 : (this.getPriority() == jobRunnable.getPriority() ? 0 : 1);
+        //正序，越小越先执行
+        return this.getPriority() < jobRunnable.getPriority() ? 1 : (this.getPriority() == jobRunnable.getPriority() ? 0 : -1);
     }
 }
