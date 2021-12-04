@@ -1,0 +1,3 @@
+rootProject.name='utils-job'
+include ':app'
+include ':utils'
